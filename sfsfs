@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<Project Device="Default" Runtime="VM" Platform="Test" ActiveConfig="default">
+
+
+-<Desktop title="UnderTale Fan Game - GameMaker Studio 2" windowState="Maximized" id="19" height="837" width="1440" y="-8" x="-8">
+
+
+-<Workspaces>
+
+
+-<Workspace title="room0" workspace_scale="1" workspace_offset="[0, 0]" localise_title="" chain="False" active="False">
+
+
+-<Module WorkspaceOwner="true" Command="open_room_editor">
+
+
+-<Room id="9ac8417f-6df9-44c2-9e37-482a9c06df63">
+
+
+-<RoomEditArea>
+
+<PanArea pan="[-173.3968, -63.06702]" zoom="0.7958984"/>
+
+<Properties/>
+
+
+-<Selected>
+
+<Layer GUID="61f28116-a7c4-44e6-8e90-83c13b7ba317"/>
+
+<Item GUID="d93e0e05-f0d4-4bc0-987a-3e861ac70009"/>
+
+</Selected>
+
+</RoomEditArea>
+
+</Room>
+
+</Module>
+
+</Workspace>
+
+
+-<Workspace title="Workspace 1" workspace_scale="1" workspace_offset="[-529, 1952]" localise_title="Workspace_TabTitle" chain="True" active="True" localise_arguments="[ "1" ]">
+
+
+-<Module Command="open_object_editor">
+
+
+-<ObjectEditor activeWindow="parent" physicsEditorOpen="false" physicsOpen="false" parentOpen="false" eventsOpen="true" objectName="object2" objectId="97eeb796-6973-4d52-8e63-29c87a1f974b">
+
+<WorkspaceChain top="125dpi_px" left="-529dpi_px"/>
+
+
+-<DocumentWindow linkIndex="-1" h="591dpi_px" w="1734dpi_px" isActive="False" activeTab="1" fullscreen="False" columns="1">
+
+<Script view_readonly="false" overridden_title="False" subResource="da1aba79-68cc-4c9e-9951-c5e00daa7e89" resource="97eeb796-6973-4d52-8e63-29c87a1f974b" file="${project_dir}\objects\object2\Mouse_2.gml" column="0"/>
+
+<Script view_readonly="false" overridden_title="False" subResource="0d95470c-e9c2-4f1f-a259-3c4d7903612e" resource="97eeb796-6973-4d52-8e63-29c87a1f974b" file="${project_dir}\objects\object2\Gesture_0.gml" column="0"/>
+
+</DocumentWindow>
+
+</ObjectEditor>
+
+</Module>
+
+
+-<Module Command="open_object_editor">
+
+
+-<ObjectEditor activeWindow="parent" physicsEditorOpen="false" physicsOpen="false" parentOpen="false" eventsOpen="true" objectName="object0" objectId="c45b084f-aef9-49b1-9064-dda9dd4e133f">
+
+<WorkspaceChain top="786dpi_px" left="-529dpi_px"/>
+
+</ObjectEditor>
+
+</Module>
+
+
+-<Module Command="open_sprite_editor">
+
+
+-<SpriteEditor SpriteEditor_Id="3b4e9511-9af7-4ff8-987e-f3fc08ecdf9b">
+
+<WorkspaceChain top="1275dpi_px" left="-529dpi_px"/>
+
+</SpriteEditor>
+
+</Module>
+
+</Workspace>
+
+
+-<Workspace title="Boss" workspace_scale="1" workspace_offset="[0, 0]" localise_title="" chain="False" active="False">
+
+
+-<Module WorkspaceOwner="true" Command="open_image_editor">
+
+<ImageEditor id="3b4e9511-9af7-4ff8-987e-f3fc08ecdf9b" frame="0"/>
+
+</Module>
+
+</Workspace>
+
+</Workspaces>
+
+
+-<Dock active_tab="0" restore_size="170.6592dpi_px" type="eLeft" state="Collapsed">
+
+<DockTab title="Room Editor" localise_title="RoomEditor_DockTab" layout_guid="1e48ee4f-d9c1-45e9-8ec1-a1f4b75b65cb" layout_id="room_editor_tab" cell_sizes="[364,303,332]"/>
+
+</Dock>
+
+
+-<Dock active_tab="0" restore_size="239.8317dpi_px" type="eRight" state="Expanded">
+
+
+-<DockTab title="Resources" localise_title="ResourceTree_Title" layout_guid="50bb9c5a-8919-4d4d-b6f7-5698d2342996" layout_id="dock_tab_1" cell_sizes="[863,137]">
+
+
+-<Module Command="open_resource_tree">
+
+<ResourceWindow title="Resources" height="600px" width="400px" localise_title="ResourceTree_Title" top="0px" left="0px" Scale="100" active_view="Default" flags="CloseButton, ResizeButton" bottom="" right=""/>
+
+</Module>
+
+
+-<Module Command="open_recent_windows">
+
+<RecentWindowsWindow title="Recent Windows" height="100dpi_px" width="400dpi_px" localise_title="recentwindows_title" top="" left="" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+</Dock>
+
+
+-<Dock active_tab="0" restore_size="155.8dpi_px" type="eBottom" state="Expanded">
+
+
+-<DockTab title="Output" localise_title="OutputPanel_Output" layout_guid="fda26dff-e535-49ed-ba92-6b5dfb378cb0" layout_id="dock_tab_1" cell_sizes="[1000]">
+
+
+-<Module Command="open_output_panel">
+
+<Window title="Output" height="240px" width="900px" localise_title="OutputPanel_Title" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+
+-<DockTab title="Search Results" localise_title="OutputPanel_SearchResults" layout_guid="dc935177-0601-415c-87d3-066efb76d728" layout_id="dock_tab_2" cell_sizes="[1000]">
+
+
+-<Module Command="open_search_output_panel">
+
+<Window title="Search Results" height="240px" width="900px" localise_title="OutputPanel_SearchResults" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+
+-<DockTab title="Source Control" localise_title="OutputPanel_SourceControl" layout_guid="749cfb50-2774-4b34-a7df-513286fa048c" layout_id="dock_tab_3" cell_sizes="[1000]">
+
+
+-<Module Command="open_sc_output_panel">
+
+<Window title="Source Control" height="240px" width="900px" localise_title="OutputPanel_SourceControl" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+
+-<DockTab title="Breakpoints" localise_title="Breakpoints" layout_guid="7f5b6d8f-ff84-4462-a28b-ba00c3bbe2d0" layout_id="dock_tab_4" cell_sizes="[1000]">
+
+
+-<Module Command="open_breakpoint_mgr">
+
+<Window title="Breakpoints" height="240px" width="900px" localise_title="Breakpoints" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+
+-<DockTab title="Compile Errors" localise_title="CompileErrors" layout_guid="5467bc12-28e8-4eb2-950a-6ee272854445" layout_id="dock_tab_5" cell_sizes="[1000]">
+
+
+-<Module Command="show_compile_errors">
+
+<Window title="Compile Errors" height="240px" width="900px" localise_title="CompileErrors" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+
+-<DockTab title="Syntax Errors" localise_title="SyntaxErrors" layout_guid="49b2f22e-a4b1-4bb5-8b26-c86f9a761e35" layout_id="dock_tab_6" cell_sizes="[1000]">
+
+
+-<Module Command="show_syntax_errors">
+
+<Window title="Syntax Errors" height="240px" width="900px" localise_title="SyntaxErrors" top="0px" left="0px" flags="Default" bottom="" right=""/>
+
+</Module>
+
+</DockTab>
+
+</Dock>
+
+</Desktop>
+
+
+-<Modules>
+
+
+-<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+
+
+-<RoomEditor>
+
+<LayerProperties title="Instances Layer Properties - room0" height="330dpi_px" width="260dpi_px" localise_title="RoomEditor_LayerProperties" top="" left="20dpi_px" flags="Default" bottom="350dpi_px" right="" desktop="19" dock_tab_guid="1e48ee4f-d9c1-45e9-8ec1-a1f4b75b65cb" dock_tab_id="room_editor_tab" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_name="Room Editor" dock_proportion="0.9112343" dock_list_index="1" dock_tab_index="0" dock_type="eLeft"/>
+
+<Layers title="Layers - room0" height="250dpi_px" width="320dpi_px" localise_title="RoomEditor_Layers" top="" left="340dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" bottom="270dpi_px" right="" desktop="19" dock_tab_guid="1e48ee4f-d9c1-45e9-8ec1-a1f4b75b65cb" dock_tab_id="room_editor_tab" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_name="Room Editor" dock_proportion="1.092233" dock_list_index="0" dock_tab_index="0" dock_type="eLeft"/>
+
+<RoomProperties title="Properties - room0" height="240dpi_px" width="300dpi_px" localise_title="RoomEditor_RoomProperties" top="125dpi_px" left="10dpi_px" flags="Default" bottom="" right="" desktop="19" dock_tab_guid="1e48ee4f-d9c1-45e9-8ec1-a1f4b75b65cb" dock_tab_id="room_editor_tab" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_name="Room Editor" dock_proportion="0.9986131" dock_list_index="2" dock_tab_index="0" dock_type="eLeft"/>
+
+</RoomEditor>
+
+</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+
+</Modules>
+
+</Project>
